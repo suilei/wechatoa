@@ -8,7 +8,7 @@ import com.wechatoa.client.model.LoginConfig;
 
 /**
  * 
- * Activity帮助支持类接口.
+ * Activity��������������������
  * 
  * @author Roger
  * 
@@ -16,28 +16,28 @@ import com.wechatoa.client.model.LoginConfig;
 public interface IActivitySupport {
 	/**
 	 * 
-	 * 终止服务.
+	 * ������������.
 	 * 
 	 */
 	public abstract void stopService();
 
 	/**
 	 * 
-	 * 开启服务.
+	 * ������������.
 	 * 
 	 */
 	public abstract void startService();
 
 	/**
 	 * 
-	 * 退出应用.
+	 * ������������.
 	 * 
 	 */
 	public abstract void isExit();
 	
 	/**
 	 * 
-	 * 获取用户配置.
+	 * ������������������.
 	 * 
 	 * @return
 	 */
@@ -45,7 +45,7 @@ public interface IActivitySupport {
 	
 	/**
 	 * 
-	 * 验证网络是否通畅
+	 * ������������������������
 	 * 
 	 * 
 	 * @return
@@ -55,7 +55,7 @@ public interface IActivitySupport {
 	
 	/**
 	 * 
-	 * 获取进度条.
+	 * ���������������.
 	 * 
 	 * @return
 	 */
@@ -63,7 +63,7 @@ public interface IActivitySupport {
 	
 	/**
 	 * 
-	 * 返回当前Activity上下文.
+	 * ������������Activity���������.
 	 * 
 	 * @return
 	 */
@@ -71,7 +71,7 @@ public interface IActivitySupport {
 
 	/**
 	 * 
-	 * 保存用户配置.
+	 * ������������������.
 	 * 
 	 * 
 	 */

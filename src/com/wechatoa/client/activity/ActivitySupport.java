@@ -17,11 +17,7 @@ import com.wechatoa.R;
 import com.wechatoa.client.constant.Constant;
 import com.wechatoa.client.model.LoginConfig;
 
-/**
- * Activity 工具支持类
- * 
- * 
- */
+
 public class ActivitySupport extends Activity implements IActivitySupport {
 	protected Context context = null;
 	protected SharedPreferences preferences;
@@ -49,15 +45,15 @@ public class ActivitySupport extends Activity implements IActivitySupport {
 	}
 
 	public void isExit() {
-		new AlertDialog.Builder(context).setTitle("确定退出吗?")
-				.setNeutralButton("确定", new DialogInterface.OnClickListener() {
+		new AlertDialog.Builder(context).setTitle("���������������?")
+				.setNeutralButton("������", new DialogInterface.OnClickListener() {
 					@Override
 					public void onClick(DialogInterface dialog, int which) {
 						stopService();
 						wechatoaApplication.exit();
 					}
 				})
-				.setNegativeButton("取消", new DialogInterface.OnClickListener() {
+				.setNegativeButton("������", new DialogInterface.OnClickListener() {
 					@Override
 					public void onClick(DialogInterface dialog, int which) {
 						dialog.cancel();
